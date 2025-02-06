@@ -20,7 +20,7 @@ public class SentimentAnalysis extends BaseTest{
 	
 	System.out.println( ":");
 	for(WebElement TopPersons :PositiveUsersname ) {
-		System.out.println(TopPersons.getText());
+		System.out.println(TopPersons);
 		
 		
 	}
