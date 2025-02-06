@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+    <listeners>
+        <listener class-name="innsightTestComponents.Listeners"/>
+    </listeners>
+    
+    <test thread-count="5" name="SentimentTest">
+        <classes>
+            <class name="reportsOnly.SentimentAnalysis" />
+        </classes>
+    </test> <!-- Test -->
+    
+    <test thread-count="5" name="WordCloudTest">
+        <classes>
+            <class name="reportsOnly.WordCloud" />
+        </classes>
+    </test>
+</suite> <!-- Suite -->

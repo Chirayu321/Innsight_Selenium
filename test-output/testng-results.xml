@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-06T17:23:40 IST" name="Default suite" finished-at="2025-02-06T17:23:57 IST" duration-ms="17533">
+    <groups>
+    </groups>
+    <test started-at="2025-02-06T17:23:40 IST" name="Default test" finished-at="2025-02-06T17:23:57 IST" duration-ms="17533">
+      <class name="reportsOnly.SentimentAnalysis">
+        <test-method is-config="true" signature="launchInnsight()[pri:0, instance:reportsOnly.SentimentAnalysis@3c41ed1d]" started-at="2025-02-06T17:23:40 IST" name="launchInnsight" finished-at="2025-02-06T17:23:41 IST" duration-ms="1820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchInnsight -->
+        <test-method signature="Sentiments()[pri:0, instance:reportsOnly.SentimentAnalysis@3c41ed1d]" started-at="2025-02-06T17:23:41 IST" name="Sentiments" finished-at="2025-02-06T17:23:57 IST" duration-ms="15476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sentiments -->
+        <test-method is-config="true" signature="Driverclose()[pri:0, instance:reportsOnly.SentimentAnalysis@3c41ed1d]" started-at="2025-02-06T17:23:57 IST" name="Driverclose" finished-at="2025-02-06T17:23:57 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driverclose -->
+      </class> <!-- reportsOnly.SentimentAnalysis -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="innsightTestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="SentimentTest(failed)">
+    <classes>
+      <class name="reportsOnly.SentimentAnalysis">
+        <methods>
+          <include name="Sentiments"/>
+          <include name="launchInnsight"/>
+          <include name="Driverclose"/>
+        </methods>
+      </class> <!-- reportsOnly.SentimentAnalysis -->
+    </classes>
+  </test> <!-- SentimentTest(failed) -->
+  <test thread-count="5" name="WordCloudTest(failed)">
+    <classes>
+      <class name="reportsOnly.WordCloud">
+        <methods>
+          <include name="launchInnsight"/>
+          <include name="TrendingHashtags"/>
+          <include name="Driverclose"/>
+          <include name="TrendingMention"/>
+        </methods>
+      </class> <!-- reportsOnly.WordCloud -->
+    </classes>
+  </test> <!-- WordCloudTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

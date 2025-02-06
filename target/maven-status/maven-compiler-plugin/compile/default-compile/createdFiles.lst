@@ -1,0 +1,4 @@
+innsight_resources\ExtentReporter.class
+pageobject\OpeningReports.class
+pageobject\Loginpage.class
+abstractcomponents\Abstratcion_Methods.class
