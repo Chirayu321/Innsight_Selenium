@@ -18,12 +18,21 @@ public class SentimentAnalysis extends BaseTest{
 	WebElement PositiveUsers=driver.findElement(By.id("positiveUsers"));
 	List <WebElement> PositiveUsersname=PositiveUsers.findElements(By.tagName("a"));
 	
-	System.out.println( ":");
+	System.out.println( "Top positive Users:");
 	for(WebElement TopPersons :PositiveUsersname ) {
 		System.out.println(TopPersons.getText());
 		
 		
+		WebElement NegativeUsers=driver.findElement(By.id("negetiveUsers"));
+		List <WebElement> NegativeUsersname=NegativeUsers.findElements(By.tagName("a"));
+		
+		System.out.println( "Top Negative Users:");
+		for(WebElement TopNegativePersons :NegativeUsersname ) {
+			System.out.println(TopNegativePersons.getText());
+		
+		
 	}
 
+}
 }
 }
